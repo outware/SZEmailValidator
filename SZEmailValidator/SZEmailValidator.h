@@ -2,6 +2,6 @@
 
 @interface SZEmailValidator : NSObject
 
-+ (BOOL)isValid:(NSString *)candidate;
++ (BOOL)isValid:(nonnull NSString *)candidate;
 
 @end

@@ -10,7 +10,8 @@ struct SZEmailParserState {
 
 @implementation SZEmailValidator
 
-+ (BOOL)isValid:(NSString *)candidate {
++ (BOOL)isValid:(nonnull NSString *)candidate {
+    NSParameterAssert(candidate != nil);
 
     unsigned int domainPartStart = 0;
     unsigned int commentDepth = 0;
