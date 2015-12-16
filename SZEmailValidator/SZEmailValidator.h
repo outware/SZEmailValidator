@@ -1,19 +1,7 @@
-//
-//  SZEmailValidator.h
-//  SZEmailValidator
-//
-//  Created by Adam Sharp on 17/12/2015.
-//  Copyright © 2015 Outware Mobile. All rights reserved.
-//
+#import <Foundation/Foundation.h>
 
-#import <UIKit/UIKit.h>
+@interface SZEmailValidator : NSObject
 
-//! Project version number for SZEmailValidator.
-FOUNDATION_EXPORT double SZEmailValidatorVersionNumber;
++ (BOOL)isValid:(NSString *)candidate;
 
-//! Project version string for SZEmailValidator.
-FOUNDATION_EXPORT const unsigned char SZEmailValidatorVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <SZEmailValidator/PublicHeader.h>
-
-
+@end

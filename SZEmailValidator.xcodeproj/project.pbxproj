@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE83F0B31C22267E0031E333 /* SZEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE83F0B21C22267E0031E333 /* SZEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE83F0BA1C22267E0031E333 /* SZEmailValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE83F0AF1C22267E0031E333 /* SZEmailValidator.framework */; };
 		CE83F0BF1C22267E0031E333 /* SZEmailValidatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83F0BE1C22267E0031E333 /* SZEmailValidatorTests.m */; };
+		CE83F0CB1C2226B60031E333 /* SZEmailValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = CE83F0C91C2226B60031E333 /* SZEmailValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE83F0CC1C2226B60031E333 /* SZEmailValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE83F0CA1C2226B60031E333 /* SZEmailValidator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,11 +25,12 @@
 
 /* Begin PBXFileReference section */
 		CE83F0AF1C22267E0031E333 /* SZEmailValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SZEmailValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE83F0B21C22267E0031E333 /* SZEmailValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZEmailValidator.h; sourceTree = "<group>"; };
 		CE83F0B41C22267E0031E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE83F0B91C22267E0031E333 /* SZEmailValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZEmailValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE83F0BE1C22267E0031E333 /* SZEmailValidatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZEmailValidatorTests.m; sourceTree = "<group>"; };
 		CE83F0C01C22267E0031E333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE83F0C91C2226B60031E333 /* SZEmailValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZEmailValidator.h; sourceTree = "<group>"; };
+		CE83F0CA1C2226B60031E333 /* SZEmailValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZEmailValidator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 				CE83F0BD1C22267E0031E333 /* SZEmailValidatorTests */,
 				CE83F0B01C22267E0031E333 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		CE83F0B01C22267E0031E333 /* Products */ = {
 			isa = PBXGroup;
@@ -71,7 +75,8 @@
 		CE83F0B11C22267E0031E333 /* SZEmailValidator */ = {
 			isa = PBXGroup;
 			children = (
-				CE83F0B21C22267E0031E333 /* SZEmailValidator.h */,
+				CE83F0C91C2226B60031E333 /* SZEmailValidator.h */,
+				CE83F0CA1C2226B60031E333 /* SZEmailValidator.m */,
 				CE83F0B41C22267E0031E333 /* Info.plist */,
 			);
 			path = SZEmailValidator;
@@ -93,7 +98,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE83F0B31C22267E0031E333 /* SZEmailValidator.h in Headers */,
+				CE83F0CB1C2226B60031E333 /* SZEmailValidator.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE83F0CC1C2226B60031E333 /* SZEmailValidator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
